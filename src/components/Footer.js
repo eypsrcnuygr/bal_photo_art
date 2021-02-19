@@ -38,7 +38,7 @@ const Footer = () => {
             </p>
           </li>
           <li className="list-unstyled">
-            <Link className="text-light" to="/Contact">
+            <Link className="text-light" to="/Bize Ulaşın">
               Bize Ulaşın
             </Link>
           </li>
