@@ -24,6 +24,7 @@ const Form = () => (
               rows="7"
             ></textarea>
           </div>
+          <button type="submit" class="btn btn-primary">Gönder</button>
         </form>
       </div>
     </div>
