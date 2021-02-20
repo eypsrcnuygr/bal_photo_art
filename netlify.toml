@@ -1,2 +1,4 @@
 /*    /index.html   200
-/turkey  200  Country=tr
+/  /turkey  200  Country=tr
+
+/turkey/*  /turkey/tr/:splat  200  Language=tr
