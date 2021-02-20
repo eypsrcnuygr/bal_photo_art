@@ -2,7 +2,7 @@
 
 This is an ongoing project which is static app for baby-art photography.
 
-![screenshot](./src/assets/images.bal.png)<br>
+![screenshot](./src/assets/images/bal.png)<br>
 
 ## Built With
 
