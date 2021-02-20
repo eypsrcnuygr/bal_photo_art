@@ -1,12 +1,20 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
-const Form = () => (
+
+
+const Form = (props) => {
+  const onSubmit = (e) => {
+    e.preventDefault()
+    props.history.push('/Thanks');
+  }
+  
+  return (
   <div className="d-flex flex-column vh-100">
     <NavBar />
     <div className="Main-Page h-100 d-flex flex-column justify-content-center">
       <div className="card col-lg-8 mx-auto p-4">
-        <form name="contact" method="POST" action="/Thanks">
+        <form name="contact" method="POST" onSubmit={onSubmit}>
         <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
             <label for="exampleFormControlInput1">Adınız</label>
@@ -44,5 +52,5 @@ const Form = () => (
     <Footer />
   </div>
 );
-
+  }
 export default Form;
