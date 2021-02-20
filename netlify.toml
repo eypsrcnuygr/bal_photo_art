@@ -2,6 +2,6 @@
   from = "/Bize Ulaşın"
   to = "/"
   status = 201
-  force = false
+  force = true
   query = {path = ":path"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["tr"], Country = ["TR"]}
