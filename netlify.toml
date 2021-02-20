@@ -3,7 +3,7 @@
   to = "/"
   status = 201
   force = true
-  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  query = {path = "/"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["tr"], Country = ["TR"]}
 
   [[redirects]]
@@ -11,5 +11,5 @@
   to = "/"
   status = 200
   force = true
-  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  query = {path = "/"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["tr"], Country = ["TR"]}
