@@ -1,7 +1,7 @@
 [[redirects]]
-  from = "/success"
+  from = "/Bize Ulaşın"
   to = "/"
-  status = 200
+  status = 201
   force = false
   query = {path = ":path"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["tr"], Country = ["TR"]}
