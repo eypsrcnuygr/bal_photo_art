@@ -11,6 +11,7 @@ import SittingBaby from './components/SittingBaby';
 import Birthday from './components/Birthday';
 import MiniFamily from './components/MiniFamily';
 import Form from './components/Form';
+import Thanks from './Thanks';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ ReactDOM.render(
         <Route path="/Yaş Günü" exact component={Birthday} />
         <Route path="/Mini Aile" exact component={MiniFamily} />
         <Route path="/Bize Ulaşın" exact component={Form} />
+        <Route path="/Thanks" exact component={Thanks} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
