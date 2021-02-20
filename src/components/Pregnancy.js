@@ -4,7 +4,7 @@ import Footer from "./Footer";
 const Pregnancy = () => (
   <div className="d-flex flex-column vh-100">
     <NavBar />
-    <div className="Main-Page h-100">
+    <div className="Main-Page">
       <h1 className="font-weight-bold text-center">Hamilelik</h1>
       <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg">
         <h2>Sizi Neler Bekliyor</h2>

@@ -6,9 +6,9 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="d-flex flex-column vh-100">
+    <div className="d-flex flex-column h-100 Main-Page">
       <NavBar />
-      <div className="Main-Page h-100">
+      <div>
         <h1 className="font-weight-bold text-center">Biz Kimiz</h1>
         <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg">
           <p>Antalya’daki ballı dünyamıza hoşgeldiniz &#128512; </p>

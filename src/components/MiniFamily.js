@@ -2,9 +2,9 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 const MiniFamily = () => (
-  <div className="d-flex flex-column vh-100">
+  <div className="d-flex flex-column vh-100 Main-Page">
     <NavBar />
-    <div className="Main-Page h-100">
+    <div>
       <h1 className="font-weight-bold text-center">Mini Aile</h1>
       <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg">
         <h2>Sizi Neler Bekliyor</h2>
