@@ -10,7 +10,7 @@ const Form = () => {
     setSubmitText("Gönderiliyor ...");
     const formElements = [...event.currentTarget.elements];
     const isValid =
-      formElements.filter((elem) => elem.name === "form-name")[0].value === "";
+      formElements.filter((elem) => elem.name === "bot-field")[0].value === "";
   
     const validFormElements = isValid ? formElements : [];
   
@@ -50,6 +50,12 @@ const Form = () => {
     <div className="Main-Page h-100 d-flex flex-column justify-content-center">
       <div className="card col-lg-8 mx-auto p-4">
         <form name="contact" method="POST" onSubmit={e => onSubmit(e, setSubmitText)}>
+        <p style={{ display: "none" }}>
+        <label>
+          Don’t fill this out if you expect to hear from me!
+          <input name="bot-field" />
+        </label>
+      </p>
         <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
             <label for="exampleFormControlInput1">Adınız</label>
