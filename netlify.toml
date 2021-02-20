@@ -1,15 +1,15 @@
 [[redirects]]
-  from = "/Bize Ulaşın"
+  from = "/Bize%20Ulaşın"
   to = "/"
   status = 201
   force = true
-  query = {path = "/"} #  apply this rule for /old-path?path=example
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["tr"], Country = ["TR"]}
 
   [[redirects]]
-  from = "/Bize Ulaşın"
+  from = "/Bize%20Ulaşın"
   to = "/"
   status = 200
   force = true
-  query = {path = "/"} #  apply this rule for /old-path?path=example
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
   conditions = {Language = ["tr"], Country = ["TR"]}
