@@ -1,1 +1,7 @@
-/tr/*    /tr/index.html   200
+[[redirects]]
+  from = "/success"
+  to = "/"
+  status = 200
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["tr"], Country = ["TR"]}
