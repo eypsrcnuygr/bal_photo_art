@@ -6,7 +6,8 @@ const Form = () => (
     <NavBar />
     <div className="Main-Page h-100 d-flex flex-column justify-content-center">
       <div className="card col-lg-8 mx-auto p-4">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST">
+        <input type="hidden" name="form-name" value="contact" />
           <div className="form-group">
             <label for="exampleFormControlInput1">Email Adresi</label>
             <input
