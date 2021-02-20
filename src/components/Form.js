@@ -8,10 +8,21 @@ const Form = () => (
       <div className="card col-lg-8 mx-auto p-4">
         <form name="contact" method="POST">
         <input type="hidden" name="form-name" value="contact" />
+        <div className="form-group">
+            <label for="exampleFormControlInput1">Adınız</label>
+            <input
+              type="text"
+              name="name"
+              className="form-control"
+              id="exampleFormControlInput1"
+              placeholder="İsim"
+            />
+          </div>
           <div className="form-group">
             <label for="exampleFormControlInput1">Email Adresi</label>
             <input
               type="email"
+              name="email"
               className="form-control"
               id="exampleFormControlInput1"
               placeholder="isim@email.com"
@@ -21,6 +32,7 @@ const Form = () => (
             <label for="exampleFormControlTextarea1">Not</label>
             <textarea
               className="form-control"
+              name="message"
               id="exampleFormControlTextarea1"
               rows="7"
             ></textarea>
