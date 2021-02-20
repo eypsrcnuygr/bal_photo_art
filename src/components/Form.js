@@ -10,7 +10,7 @@ const Form = () => {
     setSubmitText("Gönderiliyor ...");
     const formElements = [...event.currentTarget.elements];
     const isValid =
-      formElements.filter((elem) => elem.name === "bot-field")[0].value === "";
+      formElements.filter((elem) => elem.name === "form-name")[0].value === "";
   
     const validFormElements = isValid ? formElements : [];
   
