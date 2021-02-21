@@ -1,5 +1,7 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Yas1 from '../assets/images/Yas1.jpg';
+import Yas2 from '../assets/images/Yas2.jpg'
 
 const Birthday = () => (
   <div className="d-flex flex-column">
@@ -79,6 +81,10 @@ const Birthday = () => (
           *Diğer sorularınız ve merak ettikleriniz için dilediğiniz iletişim
           kanalımızdan her zaman bize ulaşabilirsiniz.{" "}
         </p>
+      </div>
+      <div className="d-flex align-items-center">
+        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Yas1} className="img img-fluid" alt="Yas1"/></div>
+        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Yas2} alt="Yas2" className="img img-fluid"/></div>
       </div>
     </div>
 

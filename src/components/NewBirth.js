@@ -1,5 +1,7 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Yenidogan1 from '../assets/images/Yenidogan1.jpg';
+import Yenidogan2 from '../assets/images/Yenidogan2.jpg';
 
 const NewBirth = () => (
   <div className="d-flex flex-column">
@@ -126,6 +128,10 @@ const NewBirth = () => (
           *Diğer sorularınız ve merak ettikleriniz için dilediğiniz iletişim
           kanalımızdan her zaman bize ulaşabilirsiniz.{" "}
         </p>
+      </div>
+      <div className="d-flex align-items-center">
+        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Yenidogan1} className="img img-fluid" alt="Yenidogan1"/></div>
+        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Yenidogan2} alt="Yenidogan2" className="img img-fluid"/></div>
       </div>
     </div>
 

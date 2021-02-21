@@ -1,10 +1,12 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Hamile1 from "../assets/images/Hamile1.jpg";
+import Hamile2 from "../assets/images/Hamile2.jpg";
 
 const Pregnancy = () => (
   <div className="d-flex flex-column vh-100">
     <div className="Main-Page">
-    <NavBar />
+      <NavBar />
       <h1 className="font-weight-bold text-center">Hamilelik</h1>
       <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg my-3">
         <h2>Sizi Neler Bekliyor</h2>
@@ -43,7 +45,15 @@ const Pregnancy = () => (
           gönderdiğiniz tarihten itibaren düzenleyerek 2 hafta içinde tekrar
           wetransfer aracılığıyla teslim ediyoruz.
         </p>
-        <p> *Diğer sorularınız ve merak ettikleriniz için dilediğiniz iletişim kanalımızdan her zaman bize ulaşabilirsiniz. </p>
+        <p>
+          {" "}
+          *Diğer sorularınız ve merak ettikleriniz için dilediğiniz iletişim
+          kanalımızdan her zaman bize ulaşabilirsiniz.{" "}
+        </p>
+      </div>
+      <div className="d-flex align-items-center">
+        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Hamile1} className="img img-fluid" alt="Hamile1"/></div>
+        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Hamile2} alt="Hamile2" className="img img-fluid"/></div>
       </div>
     </div>
 
