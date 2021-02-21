@@ -3,16 +3,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Footer from "./components/Footer";
 import NavBar from './components/NavBar';
+import img from './assets/images/GulsenSemih.jpg';
 
 function App() {
   return (
-    <div className="d-flex flex-column h-100 Main-Page">
+    <div className="d-flex flex-column Main-Page">
       <NavBar />
       <div>
         <h1 className="font-weight-bold text-center">Biz Kimiz</h1>
-        <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg">
+        <div className="my-div text-center"><img src={img} alt="Biz" className="rounded-circle my-image"/></div>
+        <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg my-4">
           <p>Antalya’daki ballı dünyamıza hoşgeldiniz &#128512; </p>
-          <p>Beyaz, Zamansız, Doğal...</p>
+          <p className="bold">Beyaz, Zamansız, Doğal...</p>
           <p>
             Dünyayı gezerken tanışıp evlenmiş iki gezgin fotoğrafçıyız.
             Seyahatlerimizin yaratıcı yanımızı beslediğine inandık ve kendimizi,

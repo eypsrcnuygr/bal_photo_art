@@ -2,11 +2,11 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 const Birth = () => (
-  <div className="d-flex flex-column">
+  <div className="d-flex flex-column Main-Page">
     <NavBar />
-    <div className="Main-Page h-100">
+    <div className="h-100">
       <h1 className="font-weight-bold text-center">Doğum</h1>
-      <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg">
+      <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg my-3">
         <h2>Sizi Neler Bekliyor</h2>
         <p>
           Doğum bu hayattaki en kutsal ve en değerli an. Bu anı yaşamakta olan

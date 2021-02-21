@@ -3,10 +3,10 @@ import Footer from "./Footer";
 
 const SittingBaby = () => (
   <div className="d-flex flex-column">
-    <NavBar />
     <div className="Main-Page h-100">
+    <NavBar />
       <h1 className="font-weight-bold text-center">Oturabilen Bebek</h1>
-      <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg">
+      <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg my-3">
         <h2>Sizi Neler Bekliyor</h2>
         <p>
           Stüdyomuza geldiğinizde bolca güler yüz ve misafirperverlik sizi

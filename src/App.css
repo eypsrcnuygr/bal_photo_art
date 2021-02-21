@@ -16,10 +16,19 @@ footer {
 
 .Main-Page {
   background-image: url('./assets/images/background.jpg');
-  font-family: 'Akaya Kanadaka', cursive;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 800;
   font-size: 1.1rem;
 }
 
-.my-navbar {
-  background: black;
+.bold {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.my-image {
+  width: 300px;
+  max-height: 200px;
 }

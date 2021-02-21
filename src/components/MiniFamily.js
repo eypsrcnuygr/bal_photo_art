@@ -2,11 +2,11 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 const MiniFamily = () => (
-  <div className="d-flex flex-column vh-100 Main-Page">
+  <div className="d-flex flex-column h-100">
+    <div className="Main-Page">
     <NavBar />
-    <div>
       <h1 className="font-weight-bold text-center">Mini Aile</h1>
-      <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg">
+      <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg my-3">
         <h2>Sizi Neler Bekliyor</h2>
         <p>
           Çok az vakti olup dış mekanda aile çekimi isteyenler için bulunmaz
