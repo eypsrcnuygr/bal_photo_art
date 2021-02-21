@@ -129,9 +129,9 @@ const NewBirth = () => (
           kanalımızdan her zaman bize ulaşabilirsiniz.{" "}
         </p>
       </div>
-      <div className="d-flex align-items-center">
-        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Yenidogan1} className="img img-fluid" alt="Yenidogan1"/></div>
-        <div className="col-5 mx-auto my-2 card bg-dark py-3"><img src={Yenidogan2} alt="Yenidogan2" className="img img-fluid"/></div>
+      <div className="d-flex align-items-center flex-wrap">
+        <div className="col-lg-5 col-10 mx-auto my-2 card bg-dark py-3"><img src={Yenidogan1} className="img img-fluid" alt="Yenidogan1"/></div>
+        <div className="col-lg-5 col-10 mx-auto my-2 card bg-dark py-3"><img src={Yenidogan2} alt="Yenidogan2" className="img img-fluid"/></div>
       </div>
     </div>
 
