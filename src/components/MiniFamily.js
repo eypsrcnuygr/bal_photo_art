@@ -1,13 +1,32 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import Mini1 from '../assets/images/Mini1.jpg';
-import Mini2 from '../assets/images/Mini2.jpg';
+import Mini1 from "../assets/images/Mini1.jpg";
+import Mini2 from "../assets/images/Mini2.jpg";
+import { Link } from "react-router-dom";
+import Logo from "../assets/images/Logo3.png";
 
 const MiniFamily = () => (
-  <div className="d-flex flex-column h-100">
+  <div className="d-flex flex-column">
     <div className="Main-Page">
-    <NavBar />
+      <div className="text-center">
+        <Link to="/">
+          <img
+            src={Logo}
+            alt="bal-photo-art Bebek Fotoğrafçılığı"
+            className="my-image-2"
+          />
+        </Link>
+      </div>
+      <NavBar />
       <h1 className="font-weight-bold text-center">Mini Aile</h1>
+      <div className="d-flex align-items-center flex-wrap">
+        <div className="col-lg-5 col-10 mx-auto my-2 card bg-dark py-3">
+          <img src={Mini1} className="img img-fluid" alt="Mini1" />
+        </div>
+        <div className="col-lg-5 col-10 mx-auto my-2 card bg-dark py-3">
+          <img src={Mini2} alt="Mini2" className="img img-fluid" />
+        </div>
+      </div>
       <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg my-3">
         <h2>Sizi Neler Bekliyor</h2>
         <p>
@@ -23,7 +42,7 @@ const MiniFamily = () => (
           size destek oluyoruz.
         </p>
         <h2>Merak Ettikleriniz</h2>
-        <h3>Çekilen fotoğraflar ne zaman elime ulaşacak?</h3>
+        <h3>-Çekilen fotoğraflar ne zaman elime ulaşacak?</h3>
         <p>
           Çektiğimiz tüm fotoğrafları iki gün içinde orjinal boyutlarıyla
           ‘wetransfer’ aracılığıyla size yolluyor ve beğendiğiniz fotoğraflardan
@@ -31,20 +50,16 @@ const MiniFamily = () => (
           gönderdiğiniz tarihten itibaren düzenleyerek 2 hafta içinde tekrar
           wetransfer aracılığıyla teslim ediyoruz.
         </p>
-        <h3>Bu çekimin evimizde olması mümkün mü?</h3>
+        <h3>-Bu çekimin evimizde olması mümkün mü?</h3>
         <p>
           Tabii ki. Detayları konuşmak için her zaman bizi arayabilir ya da
-          kahvemizi içmeye gelebilirsiniz &#128512;
+          kahvemizi içmeye gelebilirsiniz :)
         </p>
         <p>
           {" "}
           *Diğer sorularınız ve merak ettikleriniz için dilediğiniz iletişim
           kanalımızdan her zaman bize ulaşabilirsiniz.{" "}
         </p>
-      </div>
-      <div className="d-flex align-items-center flex-wrap">
-        <div className="col-lg-5 col-10 mx-auto my-2 card bg-dark py-3"><img src={Mini1} className="img img-fluid" alt="Mini1"/></div>
-        <div className="col-lg-5 col-10 mx-auto my-2 card bg-dark py-3"><img src={Mini2} alt="Mini2" className="img img-fluid"/></div>
       </div>
     </div>
 

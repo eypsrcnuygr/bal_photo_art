@@ -1,6 +1,8 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+import Logo from '../assets/images/Logo3.png'
 
 
 const Form = () => {
@@ -46,6 +48,7 @@ const Form = () => {
   
   return (
   <div className="d-flex flex-column vh-100 Main-Page">
+    <div className="text-center"><Link to="/"><img src={Logo} alt="bal-photo-art Bebek Fotoğrafçılığı" className="my-image-2"/></Link></div>
     <NavBar />
     <div className="h-100 d-flex flex-column justify-content-center">
       <div className="card col-lg-8 mx-auto p-4 font-weight-bold">

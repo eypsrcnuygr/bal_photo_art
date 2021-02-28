@@ -1,8 +1,12 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import { Link } from 'react-router-dom';
+import Logo from '../assets/images/Logo3.png'
 
 const Birth = () => (
-  <div className="d-flex flex-column Main-Page">
+  <div className="d-flex flex-column">
+    <div className="Main-Page">
+    <div className="text-center"><Link to="/"><img src={Logo} alt="bal-photo-art Bebek Fotoğrafçılığı" className="my-image-2"/></Link></div>
     <NavBar />
     <div className="h-100">
       <h1 className="font-weight-bold text-center">Doğum</h1>
@@ -33,7 +37,7 @@ const Birth = () => (
           içinde stüdyomuzda bir de mini aile çekimi hediye ediyoruz.
         </p>
         <h2>Merak Ettikleriniz</h2>
-        <h3>Çekilen fotoğraflar ne zaman elime ulaşacak?</h3>
+        <h3>-Çekilen fotoğraflar ne zaman elime ulaşacak?</h3>
         <p>
           Çektiğimiz tüm fotoğrafları iki gün içinde orjinal boyutlarıyla
           ‘wetransfer’ aracılığıyla size yolluyor ve beğendiğiniz fotoğraflardan
@@ -42,18 +46,18 @@ const Birth = () => (
           wetransfer aracılığıyla teslim ediyoruz.
         </p>
         <h3>
-          Sadece doğum sonrası odada fotoğraf çektirmek istiyoruz. Bu mümkün mü?
+          -Sadece doğum sonrası odada fotoğraf çektirmek istiyoruz. Bu mümkün mü?
         </h3>
         <p>
           Elbette. Detayları konuşmak için her zaman bize ulaşabilir, ya da
-          kahvemizi içmeye gelebilirsiniz &#128512;
+          kahvemizi içmeye gelebilirsiniz :)
         </p>
-        <h3>Anlaşmalı olduğunuz bir hastane var mı?</h3>
+        <h3>-Anlaşmalı olduğunuz bir hastane var mı?</h3>
         <p>
           Hastanelerle bu konuda anlaşma yapmayı doğru bulmuyoruz. Bu özel günde
-          dileyen herkes kendi fotoğrafçısı ile çalışabilmeli &#128512;
+          dileyen herkes kendi fotoğrafçısı ile çalışabilmeli :)
         </p>
-        <h3>Albüm fiyatları ne kadar? Ne kadar sürede albümüm hazırlanır?</h3>
+        <h3>-Albüm fiyatları ne kadar? Ne kadar sürede albümüm hazırlanır?</h3>
         <p>
           Eğer anlarınızı bir albümde saklayıp nesilden nesile aktarmak
           isterseniz stüdyomuza geldiğinizde görerek seçip fiyat değerlendirmesi
@@ -61,20 +65,20 @@ const Birth = () => (
           düzenlenmesi ve albüm tasarımı bittikten sonra onay verdiğiniz süre
           itibariyle 3-4 haftadır.
         </p>
-        <h3>Bu çekim kaç saat sürer?</h3>
-        <p>Bazen 3 saat, bazen 30 saat sürebilir &#128512;</p>
-        <h3>Normal doğumda bir aksilik çıkar da gelemezseniz?</h3>
+        <h3>-Bu çekim kaç saat sürer?</h3>
+        <p>Bazen 3 saat, bazen 30 saat sürebilir :)</p>
+        <h3>-Normal doğumda bir aksilik çıkar da gelemezseniz?</h3>
         <p>
           Çok aksi bir durum olmadıkça söz verdiğimiz doğuma geliriz. Fakat
           dünya hali. Normal doğumlarda her zaman yedek fotoğrafçı(lar)
           bulundurmanızı şiddetle tavsiye ederiz
         </p>
         <h3>
-          Çektiğiniz fotoğrafları paylaşmanızı istemiyorsak ne yapmalıyız?
+          -Çektiğiniz fotoğrafları paylaşmanızı istemiyorsak ne yapmalıyız?
         </h3>
         <p>
           Söylemeniz yeterli, eğer siz istemiyorsanız fotoğraflarınızı
-          paylaşmayız &#128512;
+          paylaşmayız :)
         </p>
         <p>
           {" "}
@@ -83,6 +87,8 @@ const Birth = () => (
         </p>
       </div>
     </div>
+    </div>
+    
 
     <Footer />
   </div>

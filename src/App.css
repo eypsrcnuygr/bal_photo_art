@@ -8,7 +8,7 @@
 }
 
 footer {
-  background: black;
+  background: #f2f2f6;
   font-family: 'Akaya Kanadaka', cursive;
   font-family: 'Merriweather', serif;
   font-family: 'Oswald', sans-serif;
@@ -17,7 +17,7 @@ footer {
 .Main-Page {
   background-image: url('./assets/images/background.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   font-family: 'Thasadith', sans-serif;
   font-weight: 800;
   font-size: 1.1rem;
@@ -30,5 +30,14 @@ footer {
 
 .my-image {
   width: 300px;
-  max-height: 200px;
+  max-height: 300px;
+}
+
+.my-image-2 {
+  width:150px;
+  height:150px;
+}
+
+h3 {
+  font-size: 1.2rem !important;
 }
