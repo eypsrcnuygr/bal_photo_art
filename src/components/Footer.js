@@ -16,9 +16,6 @@ const Footer = () => {
       </div>
       
       <div>
-        <div className="text-center w-100">
-          <h4 className="border-bottom my-h4">İletişim</h4>
-        </div>
         <ul className="pl-0">
           <li className="list-unstyled">
             <p>

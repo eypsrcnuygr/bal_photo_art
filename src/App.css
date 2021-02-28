@@ -16,8 +16,9 @@ footer {
 
 .Main-Page {
   background-image: url('./assets/images/background.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
+  background-position: top;
   font-family: 'Thasadith', sans-serif;
   font-weight: 800;
   font-size: 1.1rem;
