@@ -9,9 +9,8 @@
 
 footer {
   background: #f2f2f6;
-  font-family: 'Akaya Kanadaka', cursive;
-  font-family: 'Merriweather', serif;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Thasadith', sans-serif;
+  font-weight: 800;
 }
 
 .Main-Page {
@@ -22,6 +21,7 @@ footer {
   font-family: 'Thasadith', sans-serif;
   font-weight: 800;
   font-size: 1.1rem;
+  height: auto;
 }
 
 .bold {

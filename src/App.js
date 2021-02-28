@@ -9,14 +9,14 @@ import { Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="d-flex flex-column Main-Page">
+    <div className="d-flex flex-column Main-Page h-100">
       <div className="text-center"><Link to="/"><img src={Logo} alt="bal-photo-art Bebek Fotoğrafçılığı" className="my-image-2"/></Link></div>
       <NavBar />
       <div className="mt-3">
-        <div className="my-div text-center"><img src={img} alt="Biz" className="rounded-circle my-image"/></div>
+        <div className="text-center"><img src={img} alt="Biz" className="rounded-circle my-image"/></div>
         <div className="card  my-card col-lg-8 mx-auto p-4 shadow-lg my-4">
           <p>Antalya’daki ballı dünyamıza hoşgeldiniz :) </p>
-          <p className="bold">Beyaz, Zamansız...</p>
+          <p className="bold">Beyaz ve Zamansız...</p>
           <p>
             Dünyayı gezerken tanışıp evlenmiş iki gezgin fotoğrafçıyız.
             Seyahatlerimizin yaratıcı yanımızı beslediğine inandık ve kendimizi,
