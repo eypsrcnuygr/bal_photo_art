@@ -31,7 +31,7 @@ const Footer = () => {
           <li className="list-unstyled">
             <p>
               <i className="far fa-compass mr-2"></i>Fener
-              mahallesi-Muratpaşa/Antalya
+              Mahallesi-Muratpaşa/Antalya
             </p>
           </li>
           <li className="list-unstyled">
