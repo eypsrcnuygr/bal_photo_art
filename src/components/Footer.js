@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="d-block d-md-flex justify-content-around pt-4 pb-1 flex-wrap mt-auto text-center font-weight-bold">
+    <div className="mt-auto">
+          <footer className="d-block d-md-flex justify-content-around pt-4 pb-1 flex-wrap mt-auto text-center font-weight-bold">
       <div className="d-flex flex-column">
         <div>
           <Link to="/">
@@ -41,7 +42,11 @@ const Footer = () => {
           </li>
         </ul>
       </div>
+      
     </footer>
+    <div className="text-center bg-danger text-light">Dizayn © <a href="https://www.eyupsercanuygur.com/" className="text-light" target="blank">Eyüp Sercan UYGUR</a></div>
+    </div>
+
   );
 };
 
